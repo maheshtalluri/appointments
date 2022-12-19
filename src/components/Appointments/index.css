@@ -1,0 +1,107 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  padding: 20px;
+  width: 90%;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-element {
+  width: 300px;
+  padding: 5px;
+  outline: none;
+}
+
+.label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.button {
+  background-color: #8b5cf6;
+  width: 50px;
+  color: white;
+  font-family: 'Roboto';
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-head {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.star-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star-button {
+  background-color: transparent;
+  border: 2px solid #8b5cf6;
+  color: #8b5cf6;
+  padding: 5px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+.star-button-clicked {
+  background-color: #8b5cf6;
+  border-width: 0px;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}

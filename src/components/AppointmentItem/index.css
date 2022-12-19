@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.list-item {
+  border: 2px solid #b5b7c4;
+  width: 300px;
+  padding-left: 10px;
+  border-radius: 16px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+.name {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.name-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-list {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
